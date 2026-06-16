@@ -12,7 +12,16 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.logo {
+  margin-left: 8px;
+}
+
 
 .profile-image {
   background: rebeccapurple;
@@ -45,4 +54,18 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding-left: 0;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+.right-side {
+  display: flex;
+  padding: 10px;
+}
+
+button {
+  margin: 10px;
 }
